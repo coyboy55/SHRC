@@ -1,9 +1,5 @@
 
 import DailyTx from './dailyTx';
-import { Transition, animated } from 'react-spring';
-
-
-
 const DailyTxList = (props) => {
 
     let { dailyTxs, updateDailyTx, deleteDailyTx } = props;

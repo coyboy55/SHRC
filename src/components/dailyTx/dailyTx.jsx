@@ -1,6 +1,4 @@
 import { useEffect, useState } from "react";
-import DailyTxList from "./dailyTxList";
-import AddDailyTx from "./addDailyTx";
 import Select from '../Stool';
 import { TextField, FormLabel, Grid,Paper,makeStyles } from '@material-ui/core'
 import { getInjuredSide, getAffectedLimb, getTool, getDiagnosis, getTx } from '../../pages/controller/controller'

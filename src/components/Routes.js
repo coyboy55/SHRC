@@ -3,7 +3,6 @@ import SessionContext from './session/SessionContext';
 import { Switch, Route, Redirect } from 'react-router-dom';
 
 import Login from '../pages/login/Login';
-import Home from '../pages/home/home';
 import injuredSide from '../pages/injuredside/injuredSide';
 import AffectedLimb from '../pages/affectedLimb/affectedLimb';
 import Smoking from '../pages/smoking/smoking';
@@ -14,13 +13,8 @@ import Tx from '../pages/tx/tx';
 import testType from '../pages/testType/testType';
 import STool from './Stool';
 
-import DailyTx from '../pages/dailyTx/DailyTx';
-import History from '../pages/documents/History';
 import TestFetching from '../pages/patient';
-import TestCreate from '../pages/testCreate'
 import  FileViewer  from '../components/fileViewer/fileViewer';
-import Test from '../pages/documents/test';
-import Report from '../pages/documents/report';
 import PatientProfile from '../pages/patientProfile/index'
 import theme from './theme'
 import {ThemeProvider,CssBaseline} from '@material-ui/core'

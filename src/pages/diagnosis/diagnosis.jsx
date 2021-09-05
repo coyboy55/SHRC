@@ -1,5 +1,5 @@
-import { Fragment, useContext, useEffect, useState } from 'react';
-import SessionContext from '../../components/session/SessionContext'
+import {useEffect, useState } from 'react';
+
 import DiagnosisList from '../../components/diagnosis/diagnosisList'
 import AddDiagnosis from '../../components/diagnosis/adddiagnosis'
 import style1 from '/home/fakher/CODI/SHRC/front/src/App.module.css'

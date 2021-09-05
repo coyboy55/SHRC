@@ -1,7 +1,7 @@
 import Logo from '/home/fakher/CODI/SHRC/front/src/images/SHRC_Logo_2colors.png'
 import style from '/home/fakher/CODI/SHRC/front/src/App.module.css'
 import SessionContext from '../../components/session/SessionContext';
-import { Fragment, useContext, useState } from 'react';
+import { useContext, useState } from 'react';
 const Login = () => {
 
 

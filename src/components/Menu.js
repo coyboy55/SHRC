@@ -1,33 +1,14 @@
 import React from 'react';
-import IconButton from '@material-ui/core/IconButton';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
-import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
 import { useHistory } from 'react-router-dom';
-import { Button, FormLabel } from '@material-ui/core';
 import { Settings } from '@material-ui/icons';
 
-const options = [
-  'None',
-  'Atria',
-  'Callisto',
-  'Dione',
-  'Ganymede',
-  'Hangouts Call',
-  'Luna',
-  'Oberon',
-  'Phobos',
-  'Pyxis',
-  'Sedna',
-  'Titania',
-  'Triton',
-  'Umbriel',
-];
 
 const ITEM_HEIGHT = 48;
 
 export default function LongMenu(props) {
-let patientID=props.patientID;
+
   let history=useHistory();
   const [anchorEl, setAnchorEl] = React.useState(null);
   const open = Boolean(anchorEl);

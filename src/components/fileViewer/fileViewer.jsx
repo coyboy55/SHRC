@@ -56,7 +56,9 @@ let handleDelete=async()=>{
   let res=await fetch(url,{method:'delete'})
 let result=await res.json();
 result.success && (toast.success('deleted'));
-props.getHistory();
+const delayDebounceFn = setTimeout(() => {props.getHistory()}, 750); return () => clearTimeout(delayDebounceFn)
+
+
  }
 }
 

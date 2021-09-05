@@ -114,9 +114,11 @@ let url=`http://localhost:8080/patient/${patientID}`;
     }
 
     useEffect(()=>{
-        getPatientID();
-    },[])
+        getPatientID(); 
 
+    },[])
+    let name=values.firstName+' '+values.lastName
+    props.setName(name)
     return (
         <form  >
             <Paper className={classes.pageContent}>

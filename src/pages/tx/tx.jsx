@@ -1,5 +1,5 @@
-import { Fragment, useContext, useEffect, useState } from 'react';
-import SessionContext from '../../components/session/SessionContext'
+import { useEffect, useState } from 'react';
+
 import TxList from '../../components/tx/txList'
 import AddTx from '../../components/tx/addTx'
 import style1 from '/home/fakher/CODI/SHRC/front/src/App.module.css'

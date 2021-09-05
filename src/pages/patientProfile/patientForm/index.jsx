@@ -66,6 +66,6 @@ getPhysC();
 
 const delayDebounceFn = setTimeout(() => {console.log(affectedCR);}, 2000); return () => clearTimeout(delayDebounceFn)
    },[])
-    if (page === 0) return <Part0 patientID={patientID}/>
+    if (page === 0) return <Part0  setName={props.setName} patientID={patientID}/>
     else if (page === 1) return <Part1  physC={physC} smokingC={smokingC} state1={affectedCR} state={affectedCL} patientID={patientID}/>
 }

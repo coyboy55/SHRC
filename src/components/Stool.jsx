@@ -1,5 +1,3 @@
-import { useEffect, useState } from "react";
-import style1 from '/home/fakher/CODI/SHRC/front/src/App.module.css';
 import {TextField,MenuItem,makeStyles} from '@material-ui/core'
 
 const useStyles = makeStyles(theme => ({
@@ -12,7 +10,7 @@ const useStyles = makeStyles(theme => ({
 
 
 const STool = (props) => {
-const classes=useStyles();
+
     
             let handleChange=(e)=>{
                 let name=props.name

@@ -1,8 +1,8 @@
-import { Fragment, useContext, useEffect, useState } from 'react';
-import SessionContext from '../../components/session/SessionContext'
+import { useEffect, useState } from 'react';
+
 import DailyTxList from '../../components/dailyTx/dailyTxList'
 import AddDailyTx from '../../components/dailyTx/addDailyTx'
-import style from '/home/fakher/CODI/SHRC/front/src/App.module.css'
+
 import {FormLabel, Paper,makeStyles,Grid} from '@material-ui/core'
 
 

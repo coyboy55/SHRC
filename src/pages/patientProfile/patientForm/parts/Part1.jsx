@@ -403,24 +403,15 @@ getDiagnosisChecked();
 
                     </Grid>
                     <Grid item xs={3}>
-                        <Button   onClick={createTagsPatient}
-                            variant="contained"
-                            color="secondary"
-                            size="small"
-                            className={classes.button}
-                            startIcon={<SaveIcon />}
-                        >
-                            Save
-                        </Button>
 
-                        <Button
+                        <Button onClick={()=>history.goBack()}
                             variant="contained"
                             color="secondary"
                             size="small"
                             className={classes.button}
                             startIcon={<ArrowBackIosIcon />}
                         >
-                            Delete
+                            back
                         </Button>
                         <Paper className={classes.pageContent1}>
                 <Grid>        <FormLabel>

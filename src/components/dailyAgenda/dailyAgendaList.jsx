@@ -1,6 +1,6 @@
 
 import DailyAgenda from './dailyAgenda';
-import { Transition, animated } from 'react-spring';
+
 
 
 

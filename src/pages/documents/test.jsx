@@ -61,11 +61,14 @@ let getHistory=async()=>{
             setHistory(history);
            }else{
              toast.warning('no data')
+             setHistory([])
    
            }
     
         } catch (err) {
-          setHistory({ error_message: err })
+          let history=history.length === 1 ? [] : history 
+          setHistory(history)
+         // setHistory({ error_message: err })
         }   
     
 }

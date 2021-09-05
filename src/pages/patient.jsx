@@ -1,21 +1,7 @@
 import { useEffect, useState } from "react";
-import {FormLabel} from '@material-ui/core'
 const TestFetching = () => {
 
     const [state,setState]=useState([])
-
-    
-let obj=[
-    {
-firstName:'mariam'
-    },
-    {
-firstName:'fakher'
-    },
-    {
-
-    },
-]
 
 const getPatients=async()=>{
 let url='http://localhost:8080/patient';
